@@ -1,0 +1,50 @@
+:root {
+    /* Definição das cores utilizadas na aplicação */
+
+    /* Cor branca padrão */
+    --branco: #fff;
+
+    /* Cor preta padrão */
+    --preto: #000;
+
+    /* Cor neutra clara, usada para fundos e áreas menos destacadas */
+    --neutral-c: #f5f5f5;
+
+    /* Cor cinza escura, geralmente usada para textos secundários ou ícones */
+    --cinza-escuro: #8c8c8c;
+
+    /* Cor grafite, usada para textos principais */
+    --grafite: #222;
+
+    /* Cor vermelha, usada para elementos de destaque como botões */
+    --vermelho: #b81515;
+}
+
+* {
+    /* Aplica estilos globais para todos os elementos */
+
+    /* Define a fonte padrão como 'Montserrat' */
+    font-family: Montserrat;
+
+    /* Altera o modelo de caixa para incluir o padding e border nas dimensões totais */
+    box-sizing: border-box;
+
+    /* Remove as margens padrão de todos os elementos */
+    margin: 0;
+
+    /* Remove o padding padrão de todos os elementos */
+    padding: 0;
+
+    /* Remove o estilo padrão das listas, como bullets e números */
+    list-style: none;
+}
+
+body {
+    /* Remove a margem padrão do corpo do documento */
+    margin: 0;
+}
+
+a {
+    /* Remove a sublinha padrão dos links */
+    text-decoration: none;
+}

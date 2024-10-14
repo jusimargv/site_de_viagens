@@ -1,0 +1,671 @@
+.cabecalho__container {
+    /* Define o fundo do cabeçalho como preto e ocupa toda a largura */
+    background: var(--preto);
+    width: 100%;
+    /* Adiciona espaçamento vertical no cabeçalho */
+    padding: 40px 0;
+}
+
+.cabecalho {
+    /* Espaça os itens dentro do cabeçalho igualmente */
+    justify-content: space-between;
+    /* Define o layout como flexível */
+    display: flex;
+    /* Centraliza verticalmente os itens */
+    align-items: center;
+    /* Define a largura máxima do cabeçalho */
+    max-width: 1200px;
+    /* Centraliza o cabeçalho horizontalmente */
+    margin: 0 auto;
+}
+
+.cabecalho__logo--icone {
+    /* Define a largura máxima do logo */
+    max-width: 260px;
+}
+
+.cabecalho__navegacao {
+    /* Define o layout como flexível para o menu de navegação */
+    display: flex;
+    /* Espaça os itens dentro do menu */
+    gap: 40px;
+}
+
+.cabecalho__navegacao--lista {
+    /* Define o layout como flexível para a lista de navegação */
+    display: flex;
+    /* Espaça os itens dentro da lista */
+    gap: 40px;
+    /* Permite a quebra de linha se necessário */
+    flex-wrap: wrap;
+}
+
+.cabecalho__navegacao--item {
+    /* Define a cor do texto como branco */
+    color: var(--branco);
+    /* Define o tamanho da fonte */
+    font-size: 24px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 500;
+    /* Define a altura da linha */
+    line-height: normal;
+}
+
+.cabecalho__navegacao--link {
+    /* Define a cor do link como branco */
+    color: #FFF;
+    /* Define a fonte utilizada */
+    font-family: "Montserrat";
+}
+
+.banner__wrapper {
+    /* Define a largura máxima do banner */
+    max-width: 100%;
+    /* Define o layout como flexível para centralizar o conteúdo */
+    display: flex;
+    /* Espaça os elementos dentro do banner */
+    gap: 20px;
+}
+
+.banner__img-wrapper {
+    /* Define a largura do contêiner da imagem como 100% */
+    width: 100%;
+    /* Centraliza verticalmente os itens */
+    align-items: center;
+    /* Adiciona margem superior e inferior */
+    margin: 5px 0px;
+}
+
+.banner__img {
+    /* Define a largura máxima da imagem como 100% */
+    max-width: 100%;
+    /* Define o layout como flexível */
+    display: flex;
+    /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
+}
+
+.banner__img-descricao {
+    /* Define o layout como flexível */
+    display: flex;
+    /* Define a largura máxima do contêiner de descrição */
+    max-width: 1200px;
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Centraliza o texto */
+    text-align: center;
+    /* Define o tamanho da fonte */
+    font-size: 32px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha como 150% */
+    line-height: 150%;
+    /* Adiciona margem superior e inferior */
+    margin: 110px auto;
+}
+
+.container {
+    /* Define a largura máxima do contêiner */
+    max-width: 1200px;
+    /* Centraliza o contêiner */
+    margin: 0 auto;
+}
+
+.ofertas {
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 112px;
+}
+
+.depoimentos__titulo,
+.pagamento__titulo,
+.destinos__titulo,
+.busca__titulo,
+.ofertas__titulo {
+    /* Define a cor do título */
+    color: var(--grafite);
+    /* Define o tamanho da fonte */
+    font-size: 32px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: normal;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 64px;
+}
+
+.depoimentos__titulo--sublinhado,
+.pagamento__titulo--sublinhado,
+.destinos__titulo--sublinhado,
+.busca__titulo--sublinhado,
+.ofertas__titulo--sublinhado {
+    /* Define a largura do sublinhado */
+    width: 180px;
+    /* Define a altura do sublinhado */
+    height: 4px;
+    /* Define a cor de fundo do sublinhado */
+    background: var(--vermelho);
+    /* Centraliza o sublinhado */
+    margin: 0 auto;
+    /* Adiciona margem superior para espaçamento */
+    margin-top: 16px;
+}
+
+img {
+    /* Define a largura máxima da imagem como 100% */
+    max-width: 100%;
+}
+
+.ofertas__cards--grupo {
+    /* Define o layout como flexível para o grupo de cartões */
+    display: flex;
+    /* Espaça os cartões entre si */
+    gap: 24px;
+    /* Centraliza os cartões */
+    justify-content: space-around;
+    /* Permite a quebra de linha se necessário */
+    flex-wrap: wrap;
+}
+
+.ofertas__cards--item {
+    /* Define o layout como flexível para o cartão individual */
+    display: flex;
+    /* Adiciona espaçamento interno */
+    padding: 24px 0px;
+    /* Define a direção dos itens dentro do cartão */
+    flex-direction: column;
+    /* Centraliza horizontal e verticalmente os itens */
+    justify-content: center;
+    align-items: center;
+    /* Espaça os itens dentro do cartão */
+    gap: 16px;
+    /* Define bordas arredondadas */
+    border-radius: 16px;
+    /* Define o posicionamento da imagem de fundo */
+    background-position: center;
+    /* Ajusta a imagem de fundo ao tamanho do cartão */
+    background-size: cover;
+    /* Não repete a imagem de fundo */
+    background-repeat: no-repeat;
+    /* Define o espaçamento interno do cartão */
+    padding: 24px 32px;
+    /* Define a cor do texto */
+    color: var(--branco);
+    /* Define o crescimento flexível */
+    flex: 1 0 calc(50% - 48px);
+    /* Inclui o preenchimento nas dimensões totais do elemento */
+    box-sizing: border-box;
+    /* Centraliza o texto */
+    text-align: center;
+}
+
+.ofertas__cards--japao {
+    /* Define a imagem de fundo para o cartão do Japão */
+    background-image: url("./img/tokyo.png");
+}
+
+.ofertas__cards--san-andreas {
+    /* Define a imagem de fundo para o cartão de San Andreas */
+    background-image: url("./img/san-andreas.png");
+}
+
+.ofertas__cards--paraiba {
+    /* Define a imagem de fundo para o cartão da Paraíba */
+    background-image: url("./img/paraiba.png");
+}
+
+.ofertas__cards--manaus {
+    /* Define a imagem de fundo para o cartão de Manaus */
+    background-image: url("./img/manaus.png");
+}
+
+.ofertas__card--destino-tipo {
+    /* Define a cor do texto como branco */
+    color: var(--branco, #FFF);
+    /* Centraliza o texto */
+    text-align: center;
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 8px;
+}
+
+.ofertas__card--destino-nome {
+    /* Define o tamanho da fonte */
+    font-size: 48px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: normal;
+}
+
+.ofertas__card--preco {
+    /* Define o tamanho da fonte */
+    font-size: 40px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: normal;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 24px;
+}
+
+.destinos__item--botao {
+    /* Define a cor de fundo do botão */
+    background: var(--vermelho, #B81515);
+    /* Inclui o preenchimento nas dimensões totais do elemento */
+    box-sizing: border-box;
+    /* Define o botão como um bloco inline */
+    display: inline-block;
+}
+
+.ofertas__card--botao {
+    /* Define bordas arredondadas para o botão */
+    border-radius: 8px;
+    /* Define a cor de fundo do botão */
+    background: var(--vermelho, #B81515);
+    /* Adiciona espaçamento interno ao botão */
+    padding: 16px 48px;
+    /* Inclui o preenchimento nas dimensões totais do elemento */
+    box-sizing: border-box;
+    /* Define o botão como um bloco inline */
+    display: inline-block;
+}
+
+.oferta__card--botao-link {
+    /* Define a cor de fundo do link do botão */
+    background: var(--vermelho, #B81515);
+    /* Define a cor do texto */
+    color: #FFF;
+    /* Remove padding adicional */
+    padding: 0;
+}
+
+.destinos__item--botao-texto {
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Define a cor de fundo */
+    background: var(--vermelho, #B81515);
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Define a cor do texto */
+    color: var(--branco, #FFF);
+}
+
+.ofertas__card--botao-texto {
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Define a cor de fundo */
+    background: var(--vermelho, #B81515);
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Define a cor do texto */
+    color: var(--branco, #FFF);
+}
+
+.busca__categorias {
+    /* Define o layout como flexível para as categorias de busca */
+    display: flex;
+    /* Centraliza verticalmente os itens */
+    align-items: stretch;
+    /* Espaça as categorias entre si */
+    gap: 24px;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 112px;
+}
+
+.busca__categoria {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Centraliza o texto */
+    text-align: center;
+    /* Define o tamanho da fonte */
+    font-size: 28px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: normal;
+    /* Define bordas arredondadas */
+    border-radius: 8px;
+    /* Define a cor de fundo */
+    background: var(--cinza-claro, #F5F5F5);
+    /* Adiciona espaçamento interno */
+    padding: 24px 16px;
+    /* Flexível para ocupar o espaço disponível */
+    flex: 1;
+    /* Define o layout como flexível para centralizar o conteúdo */
+    display: flex;
+    /* Alinha os itens na coluna */
+    flex-direction: column;
+    /* Centraliza os itens verticalmente */
+    justify-content: center;
+}
+
+span.material-symbols-outlined {
+    /* Define a cor do ícone */
+    color: var(--cinza-escuro, #8C8C8C);
+    /* Define o tamanho do ícone */
+    font-size: 80px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: normal;
+}
+
+.destinos__lista {
+    /* Define o layout como flexível para a lista de destinos */
+    display: flex;
+    /* Centraliza verticalmente os itens */
+    align-items: stretch;
+    /* Espaça os itens entre si */
+    gap: 24px;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 112px;
+}
+
+.destinos__item {
+    /* Define o crescimento flexível */
+    flex: 1;
+    /* Define o layout como flexível */
+    display: flex;
+    /* Alinha os itens na coluna */
+    flex-direction: column;
+    /* Centraliza verticalmente os itens */
+    justify-content: center;
+}
+
+.destinos__item--image {
+    /* Define a largura máxima da imagem como 100% */
+    max-width: 100%;
+}
+
+.destinos__item--nome {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Define o tamanho da fonte */
+    font-size: 28px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: normal;
+    /* Adiciona margem superior e inferior */
+    margin: 24px 0;
+}
+
+.destinos__item--botao {
+    /* Define bordas arredondadas */
+    border-radius: 8px;
+    /* Define a cor de fundo */
+    background: var(--vermelho, #B81515);
+    /* Adiciona espaçamento interno */
+    padding: 16px 48px;
+    /* Inclui o preenchimento nas dimensões totais do elemento */
+    box-sizing: border-box;
+    /* Define o botão como um bloco inline */
+    display: inline-block;
+}
+
+.destinos__item--botao-texto {
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Define a cor de fundo */
+    background: var(--vermelho, #B81515);
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Define a cor do texto */
+    color: var(--branco, #FFF);
+}
+
+.destinos__item--descricao {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 24px;
+}
+
+.pagamento {
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 112px;
+}
+
+.pagamento__imagens--grupo,
+.pagamento__condicoes {
+    /* Define o layout como flexível */
+    display: flex;
+    /* Espaça os itens entre si */
+    gap: 24px;
+}
+
+.pagamento__condicoes--destaque {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Define o tamanho da fonte */
+    font-size: 28px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: normal;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 24px;
+}
+
+.pagamento__condicoes--detalhes {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Define a largura do contêiner de detalhes */
+    width: 384px;
+    /* Define a largura máxima do contêiner de detalhes */
+    max-width: 100%;
+}
+
+.pagamento__imagens--imagem-container {
+    /* Define o crescimento flexível */
+    flex: 1;
+}
+
+.pagamento__imagens--imagem-destaque {
+    /* Adiciona margem superior */
+    margin-top: 20px;
+}
+
+.pagamento__imagens--imagem {
+    /* Define a largura máxima da imagem como 100% */
+    max-width: 100%;
+}
+
+.depoimentos {
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 112px;
+}
+
+.depoimentos__wrapper {
+    /* Define o layout como flexível para o contêiner de depoimentos */
+    display: flex;
+    /* Espaça os depoimentos entre si */
+    gap: 24px;
+    /* Centraliza verticalmente os depoimentos */
+    align-items: stretch;
+}
+
+.depoimentos__item {
+    /* Define o crescimento flexível */
+    flex: 1;
+    /* Define o layout como flexível */
+    display: flex;
+    /* Alinha os itens na coluna */
+    flex-direction: column;
+    /* Espaça verticalmente os itens */
+    justify-content: space-between;
+}
+
+.depoimentos__texto {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: 28px;
+}
+
+.depoimentos__autor {
+    /* Adiciona margem superior para espaçamento */
+    margin-top: 12px;
+    /* Define o layout como flexível */
+    display: flex;
+    /* Espaça os itens entre si */
+    gap: 24px;
+}
+
+.depoimentos__autor--foto {
+    /* Define a largura máxima da foto */
+    max-width: 86px;
+}
+
+.depoimentos__autor--nome {
+    /* Define a cor do texto */
+    color: var(--grafite, #222);
+    /* Centraliza o texto */
+    text-align: center;
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define a altura da linha */
+    line-height: 32px;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 8px;
+}
+
+.footer__container {
+    /* Define a cor de fundo do rodapé */
+    background: var(--preto);
+    /* Define a largura total */
+    width: 100%;
+    /* Adiciona espaçamento interno */
+    padding: 40px 0;
+    /* Remove o espaçamento superior */
+    margin-top: -4px;
+}
+
+.footer {
+    /* Espaça os itens dentro do rodapé igualmente */
+    justify-content: space-between;
+    /* Define o layout como flexível */
+    display: flex;
+    /* Centraliza verticalmente os itens */
+    align-items: center;
+    /* Define a largura máxima do rodapé */
+    max-width: 1200px;
+    /* Centraliza o rodapé horizontalmente */
+    margin: 0 auto;
+    /* Define a cor do texto como branco */
+    color: var(--branco, #FFF);
+}
+
+.footer__logo-icon {
+    /* Define a largura máxima do logo no rodapé */
+    max-width: 160px;
+    /* Adiciona margem inferior */
+    margin-bottom: 16px;
+}
+
+.footer__info-container {
+    /* Define o layout como flexível */
+    display: flex;
+    /* Alinha os itens na coluna */
+    flex-direction: column;
+    /* Espaça os itens entre si */
+    gap: 16px;
+}
+
+.footer__text-info {
+    /* Define a cor do texto */
+    color: var(--neutral-c, #F5F5F5);
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: 32px; /* 160% */
+}
+
+.footer__social-media-container {
+    /* Centraliza o texto */
+    text-align: center;
+}
+
+.footer__social-media-text {
+    /* Define a cor do texto */
+    color: var(--neutral-c, #F5F5F5);
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Remove estilo itálico */
+    font-style: normal;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define a altura da linha */
+    line-height: 28px;
+    /* Adiciona margem inferior para espaçamento */
+    margin-bottom: 16px;
+}
